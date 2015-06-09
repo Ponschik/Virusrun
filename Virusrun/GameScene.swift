@@ -67,7 +67,6 @@ class GameScene: SKScene, CLLocationManagerDelegate, SKPhysicsContactDelegate {
         interface.position = CGPointMake(frame.size.width/2, frame.size.height/2)
         interface.updateShakeLabel(shakeFilter)
         
-        
         backgroundColor = SKColor(red: 1, green: 0.756, blue: 0.595, alpha: 1)
         
         let foreground = SKSpriteNode(imageNamed: "microscopeMask2.png")

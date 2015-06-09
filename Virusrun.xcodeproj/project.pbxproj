@@ -111,6 +111,10 @@
 		776BAAAB1B08F1E7002C49FA /* VirusrunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BAAAA1B08F1E7002C49FA /* VirusrunTests.swift */; };
 		776BAAB51B08F545002C49FA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776BAAB41B08F545002C49FA /* CoreLocation.framework */; };
 		776BAAB71B08F54E002C49FA /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776BAAB61B08F54E002C49FA /* CoreMotion.framework */; };
+		7777DD6E1B277C4D008E0EBF /* Protector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777DD6D1B277C4D008E0EBF /* Protector.swift */; };
+		7777DD6F1B277C4D008E0EBF /* Protector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777DD6D1B277C4D008E0EBF /* Protector.swift */; };
+		7777DD711B27833F008E0EBF /* protector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7777DD701B27833F008E0EBF /* protector@2x.png */; };
+		7777DD721B27833F008E0EBF /* protector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7777DD701B27833F008E0EBF /* protector@2x.png */; };
 		777ECCF71B271DEF002EFCA5 /* equalTriangleWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 777ECCF61B271DEF002EFCA5 /* equalTriangleWhite@2x.png */; };
 		777ECCF81B271DEF002EFCA5 /* equalTriangleWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 777ECCF61B271DEF002EFCA5 /* equalTriangleWhite@2x.png */; };
 		777ECCFA1B27550C002EFCA5 /* floatingBallBlur.png in Resources */ = {isa = PBXBuildFile; fileRef = 777ECCF91B27550C002EFCA5 /* floatingBallBlur.png */; };
@@ -189,6 +193,8 @@
 		776BAAAA1B08F1E7002C49FA /* VirusrunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusrunTests.swift; sourceTree = "<group>"; };
 		776BAAB41B08F545002C49FA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		776BAAB61B08F54E002C49FA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7777DD6D1B277C4D008E0EBF /* Protector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protector.swift; sourceTree = "<group>"; };
+		7777DD701B27833F008E0EBF /* protector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "protector@2x.png"; sourceTree = "<group>"; };
 		777ECCF61B271DEF002EFCA5 /* equalTriangleWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equalTriangleWhite@2x.png"; sourceTree = "<group>"; };
 		777ECCF91B27550C002EFCA5 /* floatingBallBlur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floatingBallBlur.png; sourceTree = "<group>"; };
 		777ECCFC1B275735002EFCA5 /* blackBallBlur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackBallBlur@2x.png"; sourceTree = "<group>"; };
@@ -235,6 +241,7 @@
 		771A3D141B10170900E95845 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				7777DD701B27833F008E0EBF /* protector@2x.png */,
 				771A3D151B10172600E95845 /* babbels@2x.png */,
 				771A3D161B10172600E95845 /* babbels374@2x.png */,
 				771A3D171B10172600E95845 /* babbelsMaskShadow@2x.png */,
@@ -311,6 +318,7 @@
 				776BAA941B08F1E7002C49FA /* GameScene.swift */,
 				779A4B871B13C79F005C4A15 /* Interface.swift */,
 				7733E9FC1B127A9300EF7F5A /* Bob.swift */,
+				7777DD6D1B277C4D008E0EBF /* Protector.swift */,
 				770012F51B24F022000ADEBF /* SaveArea.swift */,
 				770012B81B24E706000ADEBF /* FloatingBacteria.swift */,
 				771A3D5D1B126BE500E95845 /* Gameworld.swift */,
@@ -475,6 +483,7 @@
 				770012E01B24E96A000ADEBF /* portalShadow18@2x.png in Resources */,
 				777ECCFE1B275735002EFCA5 /* blackBallBlur@2x.png in Resources */,
 				770012E11B24E96A000ADEBF /* holeMaskInv@2x.png in Resources */,
+				7777DD721B27833F008E0EBF /* protector@2x.png in Resources */,
 				770012E21B24E96A000ADEBF /* portalShadow10@2x.png in Resources */,
 				770012E31B24E96A000ADEBF /* holeMask@2x.png in Resources */,
 				770012E41B24E96A000ADEBF /* bubble@2x.png in Resources */,
@@ -526,6 +535,7 @@
 				771A3D551B10172600E95845 /* portalShadow18@2x.png in Resources */,
 				777ECCFD1B275735002EFCA5 /* blackBallBlur@2x.png in Resources */,
 				771A3D4B1B10172600E95845 /* holeMaskInv@2x.png in Resources */,
+				7777DD711B27833F008E0EBF /* protector@2x.png in Resources */,
 				771A3D531B10172600E95845 /* portalShadow10@2x.png in Resources */,
 				771A3D4A1B10172600E95845 /* holeMask@2x.png in Resources */,
 				771A3D401B10172600E95845 /* bubble@2x.png in Resources */,
@@ -565,6 +575,7 @@
 				770012FA1B250C16000ADEBF /* SaveArea.swift in Sources */,
 				770012BF1B24E96A000ADEBF /* Bob.swift in Sources */,
 				770012C01B24E96A000ADEBF /* Interface.swift in Sources */,
+				7777DD6F1B277C4D008E0EBF /* Protector.swift in Sources */,
 				770012C11B24E96A000ADEBF /* GameScene.swift in Sources */,
 				770012C21B24E96A000ADEBF /* GameViewController.swift in Sources */,
 				770012C31B24E96A000ADEBF /* AppDelegate.swift in Sources */,
@@ -581,6 +592,7 @@
 				770012F61B24F022000ADEBF /* SaveArea.swift in Sources */,
 				7733E9FD1B127A9300EF7F5A /* Bob.swift in Sources */,
 				779A4B881B13C79F005C4A15 /* Interface.swift in Sources */,
+				7777DD6E1B277C4D008E0EBF /* Protector.swift in Sources */,
 				776BAA951B08F1E7002C49FA /* GameScene.swift in Sources */,
 				776BAA971B08F1E7002C49FA /* GameViewController.swift in Sources */,
 				776BAA911B08F1E7002C49FA /* AppDelegate.swift in Sources */,
