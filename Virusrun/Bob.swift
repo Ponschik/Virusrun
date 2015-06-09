@@ -15,14 +15,13 @@ class Bob: SKSpriteNode {
     let bobColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1)
     let bobSize = CGSize(width: 187, height: 187)
     let bobTexture = SKTexture(imageNamed: "babbels374.png")
+    let protector = Protector()
     
     
 //    let vortexField : SKFieldNode = SKFieldNode.vortexField()
 
     init() {
         super.init(texture: bobTexture, color: bobColor, size: bobSize)
-        
-        
         
         
 //        vortexField.enabled = true
@@ -40,6 +39,8 @@ class Bob: SKSpriteNode {
         physicsBody?.linearDamping = babbelsLinearDamp
         physicsBody?.affectedByGravity = false
         physicsBody?.dynamic = false
+        
+        addChild(protector)
     }
 
     required init?(coder aDecoder: NSCoder) {
