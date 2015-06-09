@@ -3,7 +3,7 @@
 //  Virusrun
 //
 //  Created by Olga Koschel on 17.05.15.
-//  Copyright (c) 2015 Olga Koschel. All rights reserved.
+//  Copyright (c) 2015 Olga Koschel & Sebastian Klotz. All rights reserved.
 //
 
 import SpriteKit
