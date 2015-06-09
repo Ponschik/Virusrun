@@ -58,7 +58,6 @@ class GameScene: SKScene, CLLocationManagerDelegate, SKPhysicsContactDelegate {
         
          //---- physics implementation ----
         self.physicsWorld.contactDelegate = self
-//        self.physicsWorld.gravity = CGVectorMake(0, 0)
         
         addChild(gameworld)
         gameworld.position = CGPointMake(frame.size.width/2, frame.size.height/2)
