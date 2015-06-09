@@ -28,6 +28,9 @@ class GameScene: SKScene, CLLocationManagerDelegate, SKPhysicsContactDelegate {
     let locationManager = CLLocationManager()
     var locationManagerReady: Bool = false
     
+    var startBeaconRegion : CLBeaconRegion!
+    var finishBeaconRegion : CLBeaconRegion!
+    
     let altimeter = CMAltimeter()
     
     let gameworld = Gameworld()
@@ -44,7 +47,6 @@ class GameScene: SKScene, CLLocationManagerDelegate, SKPhysicsContactDelegate {
     
     override func didMoveToView(view: SKView) {
         
-        
         //---- motion manager ----
         motionManager.startAccelerometerUpdates()
         
@@ -54,7 +56,7 @@ class GameScene: SKScene, CLLocationManagerDelegate, SKPhysicsContactDelegate {
         locationManager.startUpdatingHeading()
         
         //---- iBeacon ----
-        //initRegion()
+        initBeaconReagions()
         
          //---- physics implementation ----
         self.physicsWorld.contactDelegate = self
@@ -86,6 +88,23 @@ class GameScene: SKScene, CLLocationManagerDelegate, SKPhysicsContactDelegate {
 //            })
 //        }
         
+    }
+    
+//    -(void)initRegion {
+//    NSUUID* uuid = [[NSUUID alloc] initWithUUIDString:@"74278BDA-B644-4520-8F0C-720EAF059935"];
+//    self.beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uuid identifier:@"Eierlauf"];
+//    [self.locationManager startMonitoringForRegion:self.beaconRegion];
+//    [self.locationManager startRangingBeaconsInRegion:self.beaconRegion];
+//    }
+
+    func initBeaconReagions() {
+        let uuid = NSUUID(UUIDString: "74278BDA-B644-4520-8F0C-720EAF059935")
+        startBeaconRegion = CLBeaconRegion(proximityUUID: uuid, major: 1, identifier: "Start")
+        finishBeaconRegion = CLBeaconRegion(proximityUUID: uuid, major: 2, identifier: "Finish")
+        locationManager.startMonitoringForRegion(startBeaconRegion)
+        locationManager.startMonitoringForRegion(finishBeaconRegion)
+        locationManager.startRangingBeaconsInRegion(startBeaconRegion)
+        locationManager.startRangingBeaconsInRegion(finishBeaconRegion)
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
