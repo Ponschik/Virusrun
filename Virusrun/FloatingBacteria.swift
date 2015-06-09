@@ -11,9 +11,6 @@ import SpriteKit
 
 class FloatingBacteria: SKSpriteNode {
     
-//    let babbelsLinearDamp:CGFloat = 1
-//    let bobColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1)
-//    let bobSize = CGSize(width: 187, height: 187)
     let bacTexture = SKTexture(imageNamed: "floatingBall.png")
     
     let cherryRed = UIColor(red: 0.843, green: 0.188, blue: 0.254, alpha: 1)

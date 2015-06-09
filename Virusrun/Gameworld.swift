@@ -26,7 +26,6 @@ class Gameworld: SKNode {
         
         addChild(background3)
         addChild(background2)
-//        background2.alpha = 0.5
         addChild(background1)
         
         addChild(playground)
