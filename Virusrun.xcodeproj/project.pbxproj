@@ -122,6 +122,43 @@
 		777ECCFD1B275735002EFCA5 /* blackBallBlur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 777ECCFC1B275735002EFCA5 /* blackBallBlur@2x.png */; };
 		777ECCFE1B275735002EFCA5 /* blackBallBlur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 777ECCFC1B275735002EFCA5 /* blackBallBlur@2x.png */; };
 		779A4B881B13C79F005C4A15 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779A4B871B13C79F005C4A15 /* Interface.swift */; };
+		F76888E61B2CFB510014A990 /* saveAreaCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F76888E51B2CFB510014A990 /* saveAreaCircle@2x.png */; };
+		F76888E71B2CFB510014A990 /* saveAreaCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F76888E51B2CFB510014A990 /* saveAreaCircle@2x.png */; };
+		F76888E91B2D08E50014A990 /* BobHull.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76888E81B2D08E50014A990 /* BobHull.swift */; };
+		F76888EA1B2D08E50014A990 /* BobHull.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76888E81B2D08E50014A990 /* BobHull.swift */; };
+		F76888ED1B2E31090014A990 /* FloaterExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = F76888EB1B2E31090014A990 /* FloaterExplosion.sks */; };
+		F76888EE1B2E31090014A990 /* FloaterExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = F76888EB1B2E31090014A990 /* FloaterExplosion.sks */; };
+		F76888EF1B2E31090014A990 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = F76888EC1B2E31090014A990 /* spark.png */; };
+		F76888F01B2E31090014A990 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = F76888EC1B2E31090014A990 /* spark.png */; };
+		F76888F51B2F0B480014A990 /* Virus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76888F41B2F0B480014A990 /* Virus.swift */; };
+		F76888F61B2F0B480014A990 /* Virus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76888F41B2F0B480014A990 /* Virus.swift */; };
+		F76888F81B2F4E080014A990 /* bobMouth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F76888F71B2F4E080014A990 /* bobMouth@2x.png */; };
+		F76888F91B2F4E080014A990 /* bobMouth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F76888F71B2F4E080014A990 /* bobMouth@2x.png */; };
+		F76888FB1B2FA7160014A990 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76888FA1B2FA7160014A990 /* StartScreen.swift */; };
+		F76888FC1B2FA7160014A990 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76888FA1B2FA7160014A990 /* StartScreen.swift */; };
+		F76888FE1B2FAA250014A990 /* FinishScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76888FD1B2FAA250014A990 /* FinishScreen.swift */; };
+		F76888FF1B2FAA250014A990 /* FinishScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76888FD1B2FAA250014A990 /* FinishScreen.swift */; };
+		F76889011B3043280014A990 /* floatingMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F76889001B3043280014A990 /* floatingMine@2x.png */; };
+		F76889021B3043280014A990 /* floatingMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F76889001B3043280014A990 /* floatingMine@2x.png */; };
+		F7D864241B38D8F200C730E2 /* BobPuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D864231B38D8F200C730E2 /* BobPuff.swift */; };
+		F7D864251B38D8F200C730E2 /* BobPuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D864231B38D8F200C730E2 /* BobPuff.swift */; };
+		F7EC4C211B34461700CE34D1 /* floatingMine2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C201B34461700CE34D1 /* floatingMine2@2x.png */; };
+		F7EC4C231B3448CE00CE34D1 /* floatingMine3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C221B3448CE00CE34D1 /* floatingMine3@2x.png */; };
+		F7EC4C241B3448CE00CE34D1 /* floatingMine3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C221B3448CE00CE34D1 /* floatingMine3@2x.png */; };
+		F7EC4C281B344D9400CE34D1 /* floatingMine4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C251B344D9400CE34D1 /* floatingMine4@2x.png */; };
+		F7EC4C291B344D9400CE34D1 /* floatingMine4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C251B344D9400CE34D1 /* floatingMine4@2x.png */; };
+		F7EC4C2A1B344D9400CE34D1 /* floatingMine5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C261B344D9400CE34D1 /* floatingMine5@2x.png */; };
+		F7EC4C2B1B344D9400CE34D1 /* floatingMine5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C261B344D9400CE34D1 /* floatingMine5@2x.png */; };
+		F7EC4C2C1B344D9400CE34D1 /* floatingMine6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C271B344D9400CE34D1 /* floatingMine6@2x.png */; };
+		F7EC4C2D1B344D9400CE34D1 /* floatingMine6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C271B344D9400CE34D1 /* floatingMine6@2x.png */; };
+		F7EC4C2F1B34510C00CE34D1 /* floatingMine7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C2E1B34510C00CE34D1 /* floatingMine7@2x.png */; };
+		F7EC4C301B34510C00CE34D1 /* floatingMine7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C2E1B34510C00CE34D1 /* floatingMine7@2x.png */; };
+		F7EC4C321B3451C900CE34D1 /* floatingMine8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C311B3451C900CE34D1 /* floatingMine8@2x.png */; };
+		F7EC4C331B3451C900CE34D1 /* floatingMine8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C311B3451C900CE34D1 /* floatingMine8@2x.png */; };
+		F7EC4C351B34577900CE34D1 /* virus1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C341B34577900CE34D1 /* virus1@2x.png */; };
+		F7EC4C361B34577900CE34D1 /* virus1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C341B34577900CE34D1 /* virus1@2x.png */; };
+		F7EC4C381B37080900CE34D1 /* Explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC4C371B37080900CE34D1 /* Explosion.swift */; };
+		F7EC4C391B37080900CE34D1 /* Explosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EC4C371B37080900CE34D1 /* Explosion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +236,25 @@
 		777ECCF91B27550C002EFCA5 /* floatingBallBlur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floatingBallBlur.png; sourceTree = "<group>"; };
 		777ECCFC1B275735002EFCA5 /* blackBallBlur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackBallBlur@2x.png"; sourceTree = "<group>"; };
 		779A4B871B13C79F005C4A15 /* Interface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		F76888E51B2CFB510014A990 /* saveAreaCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saveAreaCircle@2x.png"; sourceTree = "<group>"; };
+		F76888E81B2D08E50014A990 /* BobHull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobHull.swift; sourceTree = "<group>"; };
+		F76888EB1B2E31090014A990 /* FloaterExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FloaterExplosion.sks; sourceTree = "<group>"; };
+		F76888EC1B2E31090014A990 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		F76888F41B2F0B480014A990 /* Virus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Virus.swift; sourceTree = "<group>"; };
+		F76888F71B2F4E080014A990 /* bobMouth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobMouth@2x.png"; sourceTree = "<group>"; };
+		F76888FA1B2FA7160014A990 /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		F76888FD1B2FAA250014A990 /* FinishScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishScreen.swift; sourceTree = "<group>"; };
+		F76889001B3043280014A990 /* floatingMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine@2x.png"; sourceTree = "<group>"; };
+		F7D864231B38D8F200C730E2 /* BobPuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobPuff.swift; sourceTree = "<group>"; };
+		F7EC4C201B34461700CE34D1 /* floatingMine2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine2@2x.png"; sourceTree = "<group>"; };
+		F7EC4C221B3448CE00CE34D1 /* floatingMine3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine3@2x.png"; sourceTree = "<group>"; };
+		F7EC4C251B344D9400CE34D1 /* floatingMine4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine4@2x.png"; sourceTree = "<group>"; };
+		F7EC4C261B344D9400CE34D1 /* floatingMine5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine5@2x.png"; sourceTree = "<group>"; };
+		F7EC4C271B344D9400CE34D1 /* floatingMine6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine6@2x.png"; sourceTree = "<group>"; };
+		F7EC4C2E1B34510C00CE34D1 /* floatingMine7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine7@2x.png"; sourceTree = "<group>"; };
+		F7EC4C311B3451C900CE34D1 /* floatingMine8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine8@2x.png"; sourceTree = "<group>"; };
+		F7EC4C341B34577900CE34D1 /* virus1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "virus1@2x.png"; sourceTree = "<group>"; };
+		F7EC4C371B37080900CE34D1 /* Explosion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explosion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,12 +310,13 @@
 				771A3D1E1B10172600E95845 /* bubbleMaskShadow@2x.png */,
 				771A3D1F1B10172600E95845 /* bubbleWhiteGrey@2x.png */,
 				771A3D201B10172600E95845 /* bubbleWhiteTransparent@2x.png */,
-				771A3D211B10172600E95845 /* circleBac@2x.png */,
 				771A3D221B10172600E95845 /* equalTriangle@2x.png */,
 				771A3D231B10172600E95845 /* equalTriangleCut@2x.png */,
 				771A3D241B10172600E95845 /* equalTriangleCutMask@2x.png */,
 				770012F71B24F55D000ADEBF /* floatingBall@2x.png */,
 				771A3D251B10172600E95845 /* greenBac@2x.png */,
+				771A3D2D1B10172600E95845 /* pinkBac@2x.png */,
+				771A3D211B10172600E95845 /* circleBac@2x.png */,
 				771A3D261B10172600E95845 /* holeMask@2x.png */,
 				771A3D271B10172600E95845 /* holeMaskInv@2x.png */,
 				771A3D281B10172600E95845 /* magnetArrow@2x.png */,
@@ -267,7 +324,6 @@
 				771A3D2A1B10172600E95845 /* microscopeMask2@2x.png */,
 				771A3D2B1B10172600E95845 /* microscopeMask3@2x.png */,
 				771A3D2C1B10172600E95845 /* microscopeMask4@2x.png */,
-				771A3D2D1B10172600E95845 /* pinkBac@2x.png */,
 				771A3D2E1B10172600E95845 /* pinkHole@2x.png */,
 				771A3D2F1B10172600E95845 /* portalShadow10@2x.png */,
 				771A3D301B10172600E95845 /* portalShadow16@2x.png */,
@@ -276,12 +332,23 @@
 				777ECCF61B271DEF002EFCA5 /* equalTriangleWhite@2x.png */,
 				771A3D331B10172600E95845 /* rightMask@2x.png */,
 				771A3D341B10172600E95845 /* whiteBall@2x.png */,
+				F7EC4C221B3448CE00CE34D1 /* floatingMine3@2x.png */,
 				777ECCF91B27550C002EFCA5 /* floatingBallBlur.png */,
 				771A3D351B10172600E95845 /* world1BG5@2x.png */,
 				771A3D361B10172600E95845 /* world2BG5@2x.png */,
 				771A3D371B10172600E95845 /* world2BG5cut@2x.png */,
 				771A3D381B10172600E95845 /* world2BG9@2x.png */,
 				777ECCFC1B275735002EFCA5 /* blackBallBlur@2x.png */,
+				F76888E51B2CFB510014A990 /* saveAreaCircle@2x.png */,
+				F76889001B3043280014A990 /* floatingMine@2x.png */,
+				F7EC4C201B34461700CE34D1 /* floatingMine2@2x.png */,
+				F7EC4C251B344D9400CE34D1 /* floatingMine4@2x.png */,
+				F7EC4C261B344D9400CE34D1 /* floatingMine5@2x.png */,
+				F7EC4C271B344D9400CE34D1 /* floatingMine6@2x.png */,
+				F7EC4C2E1B34510C00CE34D1 /* floatingMine7@2x.png */,
+				F7EC4C311B3451C900CE34D1 /* floatingMine8@2x.png */,
+				F76888F71B2F4E080014A990 /* bobMouth@2x.png */,
+				F7EC4C341B34577900CE34D1 /* virus1@2x.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -314,15 +381,23 @@
 				771A3D141B10170900E95845 /* Assets */,
 				771A3D121B10119000E95845 /* SKTUtils */,
 				776BAA901B08F1E7002C49FA /* AppDelegate.swift */,
-				776BAA921B08F1E7002C49FA /* GameScene.sks */,
+				776BAA961B08F1E7002C49FA /* GameViewController.swift */,
 				776BAA941B08F1E7002C49FA /* GameScene.swift */,
+				F76888FA1B2FA7160014A990 /* StartScreen.swift */,
+				F76888FD1B2FAA250014A990 /* FinishScreen.swift */,
 				779A4B871B13C79F005C4A15 /* Interface.swift */,
+				771A3D5D1B126BE500E95845 /* Gameworld.swift */,
 				7733E9FC1B127A9300EF7F5A /* Bob.swift */,
+				F7D864231B38D8F200C730E2 /* BobPuff.swift */,
+				F76888E81B2D08E50014A990 /* BobHull.swift */,
 				7777DD6D1B277C4D008E0EBF /* Protector.swift */,
 				770012F51B24F022000ADEBF /* SaveArea.swift */,
 				770012B81B24E706000ADEBF /* FloatingBacteria.swift */,
-				771A3D5D1B126BE500E95845 /* Gameworld.swift */,
-				776BAA961B08F1E7002C49FA /* GameViewController.swift */,
+				F76888F41B2F0B480014A990 /* Virus.swift */,
+				F7EC4C371B37080900CE34D1 /* Explosion.swift */,
+				F76888EB1B2E31090014A990 /* FloaterExplosion.sks */,
+				F76888EC1B2E31090014A990 /* spark.png */,
+				776BAA921B08F1E7002C49FA /* GameScene.sks */,
 				776BAA981B08F1E7002C49FA /* Main.storyboard */,
 				776BAA9B1B08F1E7002C49FA /* Images.xcassets */,
 				776BAA9D1B08F1E7002C49FA /* LaunchScreen.xib */,
@@ -466,13 +541,18 @@
 				770012CF1B24E96A000ADEBF /* pinkBac@2x.png in Resources */,
 				770012D01B24E96A000ADEBF /* magnetArrow@2x.png in Resources */,
 				770012D11B24E96A000ADEBF /* world2BG9@2x.png in Resources */,
+				F76889021B3043280014A990 /* floatingMine@2x.png in Resources */,
 				770012D21B24E96A000ADEBF /* bubbleWhiteGrey@2x.png in Resources */,
 				770012D31B24E96A000ADEBF /* babbelsPressed@2x.png in Resources */,
+				F76888F01B2E31090014A990 /* spark.png in Resources */,
 				770012D41B24E96A000ADEBF /* microscopeMask3@2x.png in Resources */,
+				F7EC4C241B3448CE00CE34D1 /* floatingMine3@2x.png in Resources */,
 				770012D51B24E96A000ADEBF /* babbelsMaskShadow@2x.png in Resources */,
+				F76888F91B2F4E080014A990 /* bobMouth@2x.png in Resources */,
 				770012D61B24E96A000ADEBF /* world2BG5cut@2x.png in Resources */,
 				770012D71B24E96A000ADEBF /* bubbleMask@2x.png in Resources */,
 				770012D81B24E96A000ADEBF /* whiteBall@2x.png in Resources */,
+				F7EC4C291B344D9400CE34D1 /* floatingMine4@2x.png in Resources */,
 				770012D91B24E96A000ADEBF /* rightMask@2x.png in Resources */,
 				770012DA1B24E96A000ADEBF /* bubbleWhiteTransparent@2x.png in Resources */,
 				770012DB1B24E96A000ADEBF /* circleBac@2x.png in Resources */,
@@ -480,6 +560,7 @@
 				770012DD1B24E96A000ADEBF /* greenBac@2x.png in Resources */,
 				770012DE1B24E96A000ADEBF /* right@2x.png in Resources */,
 				770012DF1B24E96A000ADEBF /* portalShadow16@2x.png in Resources */,
+				F76888EE1B2E31090014A990 /* FloaterExplosion.sks in Resources */,
 				770012E01B24E96A000ADEBF /* portalShadow18@2x.png in Resources */,
 				777ECCFE1B275735002EFCA5 /* blackBallBlur@2x.png in Resources */,
 				770012E11B24E96A000ADEBF /* holeMaskInv@2x.png in Resources */,
@@ -489,16 +570,22 @@
 				770012E41B24E96A000ADEBF /* bubble@2x.png in Resources */,
 				770012E51B24E96A000ADEBF /* ballChain@2x.png in Resources */,
 				777ECCFB1B27550C002EFCA5 /* floatingBallBlur.png in Resources */,
+				F76888E71B2CFB510014A990 /* saveAreaCircle@2x.png in Resources */,
 				770012F91B24F833000ADEBF /* floatingBall@2x.png in Resources */,
 				770012E61B24E96A000ADEBF /* equalTriangle@2x.png in Resources */,
 				770012E71B24E96A000ADEBF /* microscopeMask@2x.png in Resources */,
 				770012E81B24E96A000ADEBF /* babbelsPressed374@2x.png in Resources */,
 				770012E91B24E96A000ADEBF /* world2BG5@2x.png in Resources */,
 				770012EA1B24E96A000ADEBF /* pinkHole@2x.png in Resources */,
+				F7EC4C361B34577900CE34D1 /* virus1@2x.png in Resources */,
 				770012EB1B24E96A000ADEBF /* microscopeMask4@2x.png in Resources */,
 				770012EC1B24E96A000ADEBF /* Main.storyboard in Resources */,
+				F7EC4C301B34510C00CE34D1 /* floatingMine7@2x.png in Resources */,
 				770012ED1B24E96A000ADEBF /* babbels@2x.png in Resources */,
+				F7EC4C2B1B344D9400CE34D1 /* floatingMine5@2x.png in Resources */,
 				770012EE1B24E96A000ADEBF /* babbels374@2x.png in Resources */,
+				F7EC4C2D1B344D9400CE34D1 /* floatingMine6@2x.png in Resources */,
+				F7EC4C331B3451C900CE34D1 /* floatingMine8@2x.png in Resources */,
 				770012EF1B24E96A000ADEBF /* microscopeMask2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,20 +595,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				771A3D3F1B10172600E95845 /* blackBall@2x.png in Resources */,
+				F7EC4C231B3448CE00CE34D1 /* floatingMine3@2x.png in Resources */,
 				776BAA9F1B08F1E7002C49FA /* LaunchScreen.xib in Resources */,
+				F7EC4C2A1B344D9400CE34D1 /* floatingMine5@2x.png in Resources */,
 				771A3D481B10172600E95845 /* equalTriangleCutMask@2x.png in Resources */,
 				771A3D421B10172600E95845 /* bubbleMaskShadow@2x.png in Resources */,
 				771A3D591B10172600E95845 /* world1BG5@2x.png in Resources */,
 				777ECCF71B271DEF002EFCA5 /* equalTriangleWhite@2x.png in Resources */,
 				776BAA9C1B08F1E7002C49FA /* Images.xcassets in Resources */,
+				F7EC4C321B3451C900CE34D1 /* floatingMine8@2x.png in Resources */,
 				776BAA931B08F1E7002C49FA /* GameScene.sks in Resources */,
 				771A3D511B10172600E95845 /* pinkBac@2x.png in Resources */,
 				771A3D4C1B10172600E95845 /* magnetArrow@2x.png in Resources */,
 				771A3D5C1B10172600E95845 /* world2BG9@2x.png in Resources */,
+				F7EC4C2F1B34510C00CE34D1 /* floatingMine7@2x.png in Resources */,
+				F76889011B3043280014A990 /* floatingMine@2x.png in Resources */,
 				771A3D431B10172600E95845 /* bubbleWhiteGrey@2x.png in Resources */,
 				771A3D3C1B10172600E95845 /* babbelsPressed@2x.png in Resources */,
+				F76888EF1B2E31090014A990 /* spark.png in Resources */,
 				771A3D4F1B10172600E95845 /* microscopeMask3@2x.png in Resources */,
 				771A3D3B1B10172600E95845 /* babbelsMaskShadow@2x.png in Resources */,
+				F76888F81B2F4E080014A990 /* bobMouth@2x.png in Resources */,
 				771A3D5B1B10172600E95845 /* world2BG5cut@2x.png in Resources */,
 				771A3D411B10172600E95845 /* bubbleMask@2x.png in Resources */,
 				771A3D581B10172600E95845 /* whiteBall@2x.png in Resources */,
@@ -531,8 +625,11 @@
 				771A3D471B10172600E95845 /* equalTriangleCut@2x.png in Resources */,
 				771A3D491B10172600E95845 /* greenBac@2x.png in Resources */,
 				771A3D561B10172600E95845 /* right@2x.png in Resources */,
+				F7EC4C2C1B344D9400CE34D1 /* floatingMine6@2x.png in Resources */,
 				771A3D541B10172600E95845 /* portalShadow16@2x.png in Resources */,
+				F76888ED1B2E31090014A990 /* FloaterExplosion.sks in Resources */,
 				771A3D551B10172600E95845 /* portalShadow18@2x.png in Resources */,
+				F7EC4C281B344D9400CE34D1 /* floatingMine4@2x.png in Resources */,
 				777ECCFD1B275735002EFCA5 /* blackBallBlur@2x.png in Resources */,
 				771A3D4B1B10172600E95845 /* holeMaskInv@2x.png in Resources */,
 				7777DD711B27833F008E0EBF /* protector@2x.png in Resources */,
@@ -541,6 +638,8 @@
 				771A3D401B10172600E95845 /* bubble@2x.png in Resources */,
 				771A3D3E1B10172600E95845 /* ballChain@2x.png in Resources */,
 				777ECCFA1B27550C002EFCA5 /* floatingBallBlur.png in Resources */,
+				F7EC4C211B34461700CE34D1 /* floatingMine2@2x.png in Resources */,
+				F76888E61B2CFB510014A990 /* saveAreaCircle@2x.png in Resources */,
 				770012F81B24F55D000ADEBF /* floatingBall@2x.png in Resources */,
 				771A3D461B10172600E95845 /* equalTriangle@2x.png in Resources */,
 				771A3D4D1B10172600E95845 /* microscopeMask@2x.png in Resources */,
@@ -549,6 +648,7 @@
 				771A3D521B10172600E95845 /* pinkHole@2x.png in Resources */,
 				771A3D501B10172600E95845 /* microscopeMask4@2x.png in Resources */,
 				776BAA9A1B08F1E7002C49FA /* Main.storyboard in Resources */,
+				F7EC4C351B34577900CE34D1 /* virus1@2x.png in Resources */,
 				771A3D391B10172600E95845 /* babbels@2x.png in Resources */,
 				771A3D3A1B10172600E95845 /* babbels374@2x.png in Resources */,
 				771A3D4E1B10172600E95845 /* microscopeMask2@2x.png in Resources */,
@@ -569,15 +669,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76888FF1B2FAA250014A990 /* FinishScreen.swift in Sources */,
 				770012BC1B24E96A000ADEBF /* FloatingBacteria.swift in Sources */,
 				770012BD1B24E96A000ADEBF /* CGFloat+Extensions.swift in Sources */,
+				F76888EA1B2D08E50014A990 /* BobHull.swift in Sources */,
+				F76888F61B2F0B480014A990 /* Virus.swift in Sources */,
+				F76888FC1B2FA7160014A990 /* StartScreen.swift in Sources */,
 				770012BE1B24E96A000ADEBF /* Gameworld.swift in Sources */,
 				770012FA1B250C16000ADEBF /* SaveArea.swift in Sources */,
 				770012BF1B24E96A000ADEBF /* Bob.swift in Sources */,
 				770012C01B24E96A000ADEBF /* Interface.swift in Sources */,
 				7777DD6F1B277C4D008E0EBF /* Protector.swift in Sources */,
 				770012C11B24E96A000ADEBF /* GameScene.swift in Sources */,
+				F7D864251B38D8F200C730E2 /* BobPuff.swift in Sources */,
 				770012C21B24E96A000ADEBF /* GameViewController.swift in Sources */,
+				F7EC4C391B37080900CE34D1 /* Explosion.swift in Sources */,
 				770012C31B24E96A000ADEBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,15 +692,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76888FE1B2FAA250014A990 /* FinishScreen.swift in Sources */,
 				770012B91B24E706000ADEBF /* FloatingBacteria.swift in Sources */,
 				771A3D111B100E8E00E95845 /* CGFloat+Extensions.swift in Sources */,
+				F76888E91B2D08E50014A990 /* BobHull.swift in Sources */,
+				F76888F51B2F0B480014A990 /* Virus.swift in Sources */,
+				F76888FB1B2FA7160014A990 /* StartScreen.swift in Sources */,
 				771A3D5E1B126BE500E95845 /* Gameworld.swift in Sources */,
 				770012F61B24F022000ADEBF /* SaveArea.swift in Sources */,
 				7733E9FD1B127A9300EF7F5A /* Bob.swift in Sources */,
 				779A4B881B13C79F005C4A15 /* Interface.swift in Sources */,
 				7777DD6E1B277C4D008E0EBF /* Protector.swift in Sources */,
 				776BAA951B08F1E7002C49FA /* GameScene.swift in Sources */,
+				F7D864241B38D8F200C730E2 /* BobPuff.swift in Sources */,
 				776BAA971B08F1E7002C49FA /* GameViewController.swift in Sources */,
+				F7EC4C381B37080900CE34D1 /* Explosion.swift in Sources */,
 				776BAA911B08F1E7002C49FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

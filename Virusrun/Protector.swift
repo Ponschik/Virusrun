@@ -39,9 +39,16 @@ class Protector: SKNode {
         protector.zPosition = 20
         
         protector.physicsBody = SKPhysicsBody(texture: protector.texture, size: protector.size)
+        protector.physicsBody?.categoryBitMask = CollisionType.Protector.rawValue
+        protector.physicsBody?.contactTestBitMask = CollisionType.Attacker.rawValue
+        protector.physicsBody?.collisionBitMask = 0//CollisionType.Floater.rawValue | CollisionType.Attacker.rawValue
+        protector.physicsBody?.fieldBitMask = 0
         protector.physicsBody?.affectedByGravity = false
-        protector.physicsBody?.dynamic = false
+        protector.physicsBody?.dynamic = true
 //        arrow.physicsBody?.collisionBitMask = 0
+        
+        xScale = 0.85
+        yScale = 0.85
         
         addChild(protector)
         
