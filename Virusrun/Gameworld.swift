@@ -27,14 +27,9 @@ class Gameworld: SKNode {
     
     var attacker = Virus()
     
-    var bobShine : SKSpriteNode
-    
     var gameplayActive : Bool = true
     
     override init() {
-        
-        bobShine = SKSpriteNode(imageNamed: "bobHullShineEbene1.png")
-        bobShine.zPosition = 22
         
         super.init()
         
@@ -74,10 +69,6 @@ class Gameworld: SKNode {
 //        playground.addChild(bob)
         playground.addChild(saveArea)
         
-//        playground.addChild(bobShine)
-        
-//        var bobShineConstraint = SKConstraint.distance(SKRange(lowerLimit: 0, upperLimit: 0), toNode: bobHull)
-//        bobShine.constraints = [bobShineConstraint]
         
         createBobs()
 //        var bobConstraint = SKConstraint.distance(SKRange(lowerLimit: 0, upperLimit: 40), toNode: bobHull)
