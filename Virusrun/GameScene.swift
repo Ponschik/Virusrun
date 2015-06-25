@@ -36,9 +36,11 @@ enum GameState {
 }
 
 struct GameColors {
-    static var bgColor : UIColor = UIColor(red:0.996, green:0.498, blue:0.490, alpha: 1)
+    static var bgColor : UIColor = UIColor(red:0.996, green:0.498, blue:0.490, alpha: 1)//UIColor = UIColor(red:1,  green:0.914,  blue:0.678, alpha:1)
     static var turksieColor : UIColor = UIColor(red:0.125, green:0.741, blue:0.616, alpha: 1)
     static var navy : UIColor = UIColor(red:0.184, green:0.200, blue:0.322, alpha: 1)
+    static var linkGreen : UIColor = UIColor(red:0.686, green:0.863, blue:0.682, alpha: 1)
+    static var peach : UIColor = UIColor(red:0.996, green:0.498, blue:0.490, alpha: 1)
 }
 
 

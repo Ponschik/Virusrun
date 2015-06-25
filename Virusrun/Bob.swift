@@ -13,8 +13,8 @@ class Bob: SKSpriteNode {
     
     let babbelsLinearDamp:CGFloat = 0
     let bobColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1)
-    let bobSize = CGSize(width: 60, height: 60)//75//187
-    let bobTexture = SKTexture(imageNamed: "babbels374.png")
+    let bobSize = CGSize(width: 30, height: 30)//75//187
+    let bobTexture = SKTexture(imageNamed: "bobFlatEyes.png")
     let bobContactTexture = SKTexture(imageNamed: "babbelsPressed374.png")
     let protector = Protector()
     
@@ -33,7 +33,7 @@ class Bob: SKSpriteNode {
 //    let vortexField : SKFieldNode = SKFieldNode.vortexField()
 
     init() {
-        super.init(texture: bobTexture, color: bobColor, size: bobSize)
+        super.init(texture: bobTexture, color: bobColor, size: bobTexture.size())
         
         
 //        vortexField.enabled = true
@@ -42,13 +42,13 @@ class Bob: SKSpriteNode {
 //        addChild(vortexField)
         
         zPosition = 20
-        physicsBody = SKPhysicsBody(circleOfRadius: (size.width/2))
+        physicsBody = SKPhysicsBody(circleOfRadius: (size.width/1.2))
         physicsBody?.categoryBitMask = CollisionType.Bob.rawValue
         physicsBody?.contactTestBitMask = 0//CollisionType.BobHull.rawValue
         physicsBody?.collisionBitMask = CollisionType.Bob.rawValue | CollisionType.BobPuff.rawValue
         physicsBody?.fieldBitMask = 16
         physicsBody?.friction = 0.1
-        physicsBody?.allowsRotation = true
+        physicsBody?.allowsRotation = false
         physicsBody?.linearDamping = babbelsLinearDamp
         physicsBody?.affectedByGravity = false
         physicsBody?.dynamic = true
@@ -78,13 +78,13 @@ class Bob: SKSpriteNode {
 
     func floaterHit() {
         numOfContacts++
-        if(actionForKey("hitAction") == nil){
-            removeActionForKey("endContactAction")
-            var wait = SKAction.waitForDuration(0.07)
-            var cooldown = SKAction.waitForDuration(0.5)
-            
-            runAction(SKAction.sequence([makeContactFace, scaleAction, wait, rescaleAction, cooldown, makeNormalFace]), withKey:"hitAction")
-        }
+//        if(actionForKey("hitAction") == nil){
+//            removeActionForKey("endContactAction")
+//            var wait = SKAction.waitForDuration(0.07)
+//            var cooldown = SKAction.waitForDuration(0.5)
+//            
+//            runAction(SKAction.sequence([makeContactFace, scaleAction, wait, rescaleAction, cooldown, makeNormalFace]), withKey:"hitAction")
+//        }
     }
     
     func floaterEndContact() {
@@ -98,12 +98,12 @@ class Bob: SKSpriteNode {
     
     func explode() {
         
-        var explosionScale = SKAction.scaleTo(2, duration: 0.12)
-        var colorBlack = SKAction.colorizeWithColor(UIColor.blackColor(), colorBlendFactor: 1, duration: 0.1)
-        runAction(SKAction.group([explosionScale, colorBlack]), completion: { () -> Void in
-            BobPuff(numberOfParticles: 15, radius: self.size.width/2, explodingNode: self)
-            self.removeFromParent()
-        })
+//        var explosionScale = SKAction.scaleTo(2, duration: 0.12)
+//        var colorBlack = SKAction.colorizeWithColor(UIColor.blackColor(), colorBlendFactor: 1, duration: 0.1)
+//        runAction(SKAction.group([explosionScale, colorBlack]), completion: { () -> Void in
+//            BobPuff(numberOfParticles: 15, radius: self.size.width/2, explodingNode: self)
+//            self.removeFromParent()
+//        })
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -35,7 +35,7 @@ class Explosion : SKNode {
         for num in 0..<numPart {
             
             var particle = SKSpriteNode(imageNamed: "floatingBall.png")
-            particle.color = GameColors.navy//UIColor(red:0.996,  green:0.835,  blue:0.827, alpha:1)//UIColor.blackColor()
+            particle.color = GameColors.navy//UIColor(red:0.102,  green:0.133,  blue:0.188, alpha:1)//UIColor(red:0.424,  green:0.486,  blue:0.416, alpha:1)//UIColor(red:0.996,  green:0.835,  blue:0.827, alpha:1)//UIColor.blackColor()
             
             var randBlend = CGFloat.random(min: 0.8, max: 1)
             
@@ -43,7 +43,7 @@ class Explosion : SKNode {
 //            particle.size = orig.size
             
             particle.physicsBody = SKPhysicsBody(circleOfRadius:particle.size.width/4)
-            particle.physicsBody?.collisionBitMask = CollisionType.BobHull.rawValue | CollisionType.Floater.rawValue | CollisionType.Attacker.rawValue | CollisionType.Infusion.rawValue
+            particle.physicsBody?.collisionBitMask = CollisionType.BobHull.rawValue | CollisionType.Floater.rawValue | CollisionType.Attacker.rawValue | CollisionType.Infusion.rawValue | CollisionType.SaveArea.rawValue  
             particle.physicsBody?.categoryBitMask = CollisionType.Infusion.rawValue
             particle.physicsBody?.contactTestBitMask = CollisionType.BobHull.rawValue
             particle.physicsBody?.affectedByGravity = false
@@ -95,7 +95,7 @@ class Explosion : SKNode {
             var attackBob = SKAction.runBlock { () -> Void in
                 particle.physicsBody?.fieldBitMask = FieldType.BobGravity.rawValue
             }
-            particle.runAction(SKAction.sequence([waitForAttack, attackBob]), withKey: "attack")
+//            particle.runAction(SKAction.sequence([waitForAttack, attackBob]), withKey: "attack")
             
             ////////////////////////////////////////////////////////////////////////////////
             

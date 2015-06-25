@@ -10,11 +10,15 @@ import Foundation
 import SpriteKit
 
 class BobHull: SKNode {
-    var hullTexture = SKTexture(imageNamed: "whiteBall.png")
-    let hullColor = GameColors.navy//UIColor(red: 1, green: 1, blue: 1, alpha: 0.5)
-    let hullSize = CGSize(width: 187, height: 187)
+    var hullTexture = SKTexture(imageNamed: "bobFlat2.png")
+    var hullTopTexture = SKTexture(imageNamed: "bobFlat4.png")
+    let hullColor = UIColor(red:0.698,  green:0.878,  blue:0.592, alpha:1)//GameColors.turksieColor//UIColor(red: 1, green: 1, blue: 1, alpha: 0.5)
+    let hullTopColor = UIColor(red:0,  green:0.557,  blue:0.455, alpha:1)
+    let hullSize = CGSize(width: 145, height: 145)//187
+//    let hullTopSize = CGSize
     
     var hullSprite: SKSpriteNode
+    var hullTopSprite : SKSpriteNode
     
     let origScale : CGFloat! = 1;
     
@@ -36,19 +40,36 @@ class BobHull: SKNode {
     
     var origAlpha : CGFloat
     
+    var bobShine : SKSpriteNode
+    
+    
     override init () {
         
-        hullSprite = SKSpriteNode(texture: hullTexture, color: hullColor, size: hullSize)
+        hullSprite = SKSpriteNode(texture: hullTexture, color: hullColor, size: hullTexture.size())
+        hullTopSprite = SKSpriteNode(texture: hullTopTexture, color: hullTopColor, size: hullTopTexture.size())
         bobs = NSMutableArray()
         
-        origAlpha = 0.6
+        bobShine = SKSpriteNode(imageNamed: "bobFlat1.png")
+        bobShine.zPosition = 22
+        bobShine.xScale = 0.95
+        bobShine.yScale = 0.95
+        
+        origAlpha = 0.7
         
 //        super.init(texture: hullTexture, color: hullColor, size: hullSize)
         super.init()
         
+        addChild(hullTopSprite)
         addChild(hullSprite)
+        addChild(bobShine)
+        
         
         hullSprite.colorBlendFactor = 0
+        hullSprite.zPosition = 21
+        hullSprite.alpha = 0.6
+        
+        hullTopSprite.colorBlendFactor = 0
+        hullTopSprite.zPosition = 19
         
         
         alpha = origAlpha
@@ -70,7 +91,7 @@ class BobHull: SKNode {
         
         addChild(attackerForceField)
         
-        addChild(protector)
+//        addChild(protector)
         
         subtractAction = SKAction.runBlock({ () -> Void in
             self.hullSprite.blendMode = SKBlendMode.Subtract
@@ -140,7 +161,7 @@ class BobHull: SKNode {
             var wait = SKAction.waitForDuration(0.0)
             var cooldown = SKAction.waitForDuration(0.5)
             
-            var fadeAlpha = SKAction.fadeAlphaTo(0.1, duration: 0.2)
+            var fadeAlpha = SKAction.fadeAlphaTo(origAlpha, duration: 0.2)
             var fadeBack = SKAction.fadeAlphaTo(origAlpha, duration: 0.3)
             var blinkAlpha = SKAction.repeatAction(SKAction.sequence([fadeAlpha, fadeBack]), count: 6)
             

@@ -27,9 +27,14 @@ class Gameworld: SKNode {
     
     var attacker = Virus()
     
+    var bobShine : SKSpriteNode
+    
     var gameplayActive : Bool = true
     
     override init() {
+        
+        bobShine = SKSpriteNode(imageNamed: "bobHullShineEbene1.png")
+        bobShine.zPosition = 22
         
         super.init()
         
@@ -38,6 +43,7 @@ class Gameworld: SKNode {
         addChild(background1)
         
         var bg1Layer = SKSpriteNode(color: GameColors.bgColor, size: CGSizeMake(1024, 1024))
+//        var bg1Layer = SKSpriteNode(imageNamed: "background01.jpg");
         bg1Layer.alpha = 0.93
         bg1Layer.zPosition = -10
         background1.addChild(bg1Layer)
@@ -68,6 +74,11 @@ class Gameworld: SKNode {
 //        playground.addChild(bob)
         playground.addChild(saveArea)
         
+//        playground.addChild(bobShine)
+        
+//        var bobShineConstraint = SKConstraint.distance(SKRange(lowerLimit: 0, upperLimit: 0), toNode: bobHull)
+//        bobShine.constraints = [bobShineConstraint]
+        
         createBobs()
 //        var bobConstraint = SKConstraint.distance(SKRange(lowerLimit: 0, upperLimit: 40), toNode: bobHull)
 //        bob.constraints = [bobConstraint]
@@ -76,7 +87,7 @@ class Gameworld: SKNode {
         initAndAddEnemys()
         
         
-        playground.addChild(attacker)
+//        playground.addChild(attacker)
         addFloater()
 //        newAttacker()
         
@@ -105,15 +116,16 @@ class Gameworld: SKNode {
     
     func didFinishUpdate() {
 //        moveAttacker()
+//        bobShine.zRotation = bobHull.zRotation
     }
     
     func createBobs() {
-        var bobConstraint = SKConstraint.distance(SKRange(lowerLimit: 0, upperLimit: 55), toNode: bobHull)
-        for num in 1...5 {
+        var bobConstraint = SKConstraint.distance(SKRange(lowerLimit: 0, upperLimit: 40), toNode: bobHull) // upperLimit:55
+        for num in 1...2 {
             var newBob = Bob()
             newBob.position = CGPointMake(CGFloat(num*100), 0)
             newBob.constraints = [bobConstraint]
-            newBob.zRotation = CGFloat.random(min: 0, max: CGFloat(M_PI*2))
+//            newBob.zRotation = CGFloat.random(min: 0, max: CGFloat(M_PI*2))
             playground.addChild(newBob)
             
             bobHull.bobs.addObject(newBob)
@@ -205,10 +217,10 @@ class Gameworld: SKNode {
         
         
         // TODO: Cleanup
-        let circleBac = SKTexture(imageNamed: "floatingMine8.png")
-        let greenBac = SKTexture(imageNamed: "floatingMine8.png")
-        let ballChainBac = SKTexture(imageNamed: "floatingMine8.png")
-        let pinkBac = SKTexture(imageNamed: "floatingMine8.png")
+        let circleBac = SKTexture(imageNamed: "floatingBall.png")
+        let greenBac = SKTexture(imageNamed: "floatingBall.png")
+        let ballChainBac = SKTexture(imageNamed: "floatingBall.png")
+        let pinkBac = SKTexture(imageNamed: "floatingBall.png")
         let enemysAmount = 200
         let gameWorldSizeMin : CGFloat = -500
         let gameWorldSizeMax : CGFloat = 500
@@ -274,7 +286,7 @@ class Gameworld: SKNode {
             
             bacillus.color = GameColors.turksieColor
             bacillus.colorBlendFactor = 0
-            
+            bacillus.alpha = 0.6
             
             
             

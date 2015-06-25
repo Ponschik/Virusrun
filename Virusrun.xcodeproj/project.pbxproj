@@ -142,6 +142,36 @@
 		F76889021B3043280014A990 /* floatingMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F76889001B3043280014A990 /* floatingMine@2x.png */; };
 		F7D864241B38D8F200C730E2 /* BobPuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D864231B38D8F200C730E2 /* BobPuff.swift */; };
 		F7D864251B38D8F200C730E2 /* BobPuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D864231B38D8F200C730E2 /* BobPuff.swift */; };
+		F7D864281B3982A600C730E2 /* background01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7D864261B3982A600C730E2 /* background01@2x.jpg */; };
+		F7D864291B3982A600C730E2 /* background01@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7D864261B3982A600C730E2 /* background01@2x.jpg */; };
+		F7D8642D1B3984AA00C730E2 /* floatingMine9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8642C1B3984AA00C730E2 /* floatingMine9@2x.png */; };
+		F7D8642E1B3984AA00C730E2 /* floatingMine9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8642C1B3984AA00C730E2 /* floatingMine9@2x.png */; };
+		F7D864301B39AC1600C730E2 /* floatingMine10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8642F1B39AC1600C730E2 /* floatingMine10@2x.png */; };
+		F7D864311B39AC1600C730E2 /* floatingMine10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D8642F1B39AC1600C730E2 /* floatingMine10@2x.png */; };
+		F7D864331B39AE5A00C730E2 /* background03@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7D864321B39AE5A00C730E2 /* background03@2x.jpg */; };
+		F7D864341B39AE5A00C730E2 /* background03@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7D864321B39AE5A00C730E2 /* background03@2x.jpg */; };
+		F7E1D8DF1B3A0B4C008FAB5A /* bobEyesEbene4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DA1B3A0B4C008FAB5A /* bobEyesEbene4@2x.png */; };
+		F7E1D8E01B3A0B4C008FAB5A /* bobEyesEbene4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DA1B3A0B4C008FAB5A /* bobEyesEbene4@2x.png */; };
+		F7E1D8E11B3A0B4C008FAB5A /* bobHull2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DB1B3A0B4C008FAB5A /* bobHull2@2x.png */; };
+		F7E1D8E21B3A0B4C008FAB5A /* bobHull2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DB1B3A0B4C008FAB5A /* bobHull2@2x.png */; };
+		F7E1D8E31B3A0B4C008FAB5A /* bobHullEbene1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DC1B3A0B4C008FAB5A /* bobHullEbene1@2x.png */; };
+		F7E1D8E41B3A0B4C008FAB5A /* bobHullEbene1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DC1B3A0B4C008FAB5A /* bobHullEbene1@2x.png */; };
+		F7E1D8E51B3A0B4C008FAB5A /* bobHullEbene2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DD1B3A0B4C008FAB5A /* bobHullEbene2@2x.png */; };
+		F7E1D8E61B3A0B4C008FAB5A /* bobHullEbene2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DD1B3A0B4C008FAB5A /* bobHullEbene2@2x.png */; };
+		F7E1D8E71B3A0B4C008FAB5A /* bobHullEbene4_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DE1B3A0B4C008FAB5A /* bobHullEbene4_1@2x.png */; };
+		F7E1D8E81B3A0B4C008FAB5A /* bobHullEbene4_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8DE1B3A0B4C008FAB5A /* bobHullEbene4_1@2x.png */; };
+		F7E1D8EA1B3ABAA1008FAB5A /* bobHullShineEbene1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8E91B3ABAA1008FAB5A /* bobHullShineEbene1@2x.png */; };
+		F7E1D8EB1B3ABAA1008FAB5A /* bobHullShineEbene1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8E91B3ABAA1008FAB5A /* bobHullShineEbene1@2x.png */; };
+		F7E1D8ED1B3AD2A6008FAB5A /* floatingBacBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8EC1B3AD2A6008FAB5A /* floatingBacBig@2x.png */; };
+		F7E1D8EE1B3AD2A6008FAB5A /* floatingBacBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8EC1B3AD2A6008FAB5A /* floatingBacBig@2x.png */; };
+		F7E1D8F11B3AFE76008FAB5A /* bobFlat1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8F01B3AFE76008FAB5A /* bobFlat1@2x.png */; };
+		F7E1D8F21B3AFE76008FAB5A /* bobFlat1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8F01B3AFE76008FAB5A /* bobFlat1@2x.png */; };
+		F7E1D8F41B3AFE88008FAB5A /* bobFlat2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8F31B3AFE88008FAB5A /* bobFlat2@2x.png */; };
+		F7E1D8F51B3AFE88008FAB5A /* bobFlat2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8F31B3AFE88008FAB5A /* bobFlat2@2x.png */; };
+		F7E1D8F71B3AFEDD008FAB5A /* bobFlatEyes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8F61B3AFEDD008FAB5A /* bobFlatEyes@2x.png */; };
+		F7E1D8F81B3AFEDD008FAB5A /* bobFlatEyes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8F61B3AFEDD008FAB5A /* bobFlatEyes@2x.png */; };
+		F7E1D8FA1B3AFF1C008FAB5A /* bobFlat4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8F91B3AFF1C008FAB5A /* bobFlat4@2x.png */; };
+		F7E1D8FB1B3AFF1C008FAB5A /* bobFlat4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7E1D8F91B3AFF1C008FAB5A /* bobFlat4@2x.png */; };
 		F7EC4C211B34461700CE34D1 /* floatingMine2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C201B34461700CE34D1 /* floatingMine2@2x.png */; };
 		F7EC4C231B3448CE00CE34D1 /* floatingMine3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C221B3448CE00CE34D1 /* floatingMine3@2x.png */; };
 		F7EC4C241B3448CE00CE34D1 /* floatingMine3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7EC4C221B3448CE00CE34D1 /* floatingMine3@2x.png */; };
@@ -246,6 +276,21 @@
 		F76888FD1B2FAA250014A990 /* FinishScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishScreen.swift; sourceTree = "<group>"; };
 		F76889001B3043280014A990 /* floatingMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine@2x.png"; sourceTree = "<group>"; };
 		F7D864231B38D8F200C730E2 /* BobPuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobPuff.swift; sourceTree = "<group>"; };
+		F7D864261B3982A600C730E2 /* background01@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background01@2x.jpg"; sourceTree = "<group>"; };
+		F7D8642C1B3984AA00C730E2 /* floatingMine9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine9@2x.png"; sourceTree = "<group>"; };
+		F7D8642F1B39AC1600C730E2 /* floatingMine10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine10@2x.png"; sourceTree = "<group>"; };
+		F7D864321B39AE5A00C730E2 /* background03@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background03@2x.jpg"; sourceTree = "<group>"; };
+		F7E1D8DA1B3A0B4C008FAB5A /* bobEyesEbene4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobEyesEbene4@2x.png"; sourceTree = "<group>"; };
+		F7E1D8DB1B3A0B4C008FAB5A /* bobHull2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobHull2@2x.png"; sourceTree = "<group>"; };
+		F7E1D8DC1B3A0B4C008FAB5A /* bobHullEbene1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobHullEbene1@2x.png"; sourceTree = "<group>"; };
+		F7E1D8DD1B3A0B4C008FAB5A /* bobHullEbene2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobHullEbene2@2x.png"; sourceTree = "<group>"; };
+		F7E1D8DE1B3A0B4C008FAB5A /* bobHullEbene4_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobHullEbene4_1@2x.png"; sourceTree = "<group>"; };
+		F7E1D8E91B3ABAA1008FAB5A /* bobHullShineEbene1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobHullShineEbene1@2x.png"; sourceTree = "<group>"; };
+		F7E1D8EC1B3AD2A6008FAB5A /* floatingBacBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingBacBig@2x.png"; sourceTree = "<group>"; };
+		F7E1D8F01B3AFE76008FAB5A /* bobFlat1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobFlat1@2x.png"; sourceTree = "<group>"; };
+		F7E1D8F31B3AFE88008FAB5A /* bobFlat2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobFlat2@2x.png"; sourceTree = "<group>"; };
+		F7E1D8F61B3AFEDD008FAB5A /* bobFlatEyes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobFlatEyes@2x.png"; sourceTree = "<group>"; };
+		F7E1D8F91B3AFF1C008FAB5A /* bobFlat4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bobFlat4@2x.png"; sourceTree = "<group>"; };
 		F7EC4C201B34461700CE34D1 /* floatingMine2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine2@2x.png"; sourceTree = "<group>"; };
 		F7EC4C221B3448CE00CE34D1 /* floatingMine3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine3@2x.png"; sourceTree = "<group>"; };
 		F7EC4C251B344D9400CE34D1 /* floatingMine4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatingMine4@2x.png"; sourceTree = "<group>"; };
@@ -349,6 +394,11 @@
 				F7EC4C311B3451C900CE34D1 /* floatingMine8@2x.png */,
 				F76888F71B2F4E080014A990 /* bobMouth@2x.png */,
 				F7EC4C341B34577900CE34D1 /* virus1@2x.png */,
+				F7D864261B3982A600C730E2 /* background01@2x.jpg */,
+				F7D864321B39AE5A00C730E2 /* background03@2x.jpg */,
+				F7D8642C1B3984AA00C730E2 /* floatingMine9@2x.png */,
+				F7D8642F1B39AC1600C730E2 /* floatingMine10@2x.png */,
+				F7E1D8D91B3A0B37008FAB5A /* OK Bob */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -429,6 +479,32 @@
 				776BAAA91B08F1E7002C49FA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7E1D8D91B3A0B37008FAB5A /* OK Bob */ = {
+			isa = PBXGroup;
+			children = (
+				F7E1D8DB1B3A0B4C008FAB5A /* bobHull2@2x.png */,
+				F7E1D8E91B3ABAA1008FAB5A /* bobHullShineEbene1@2x.png */,
+				F7E1D8DC1B3A0B4C008FAB5A /* bobHullEbene1@2x.png */,
+				F7E1D8DD1B3A0B4C008FAB5A /* bobHullEbene2@2x.png */,
+				F7E1D8DA1B3A0B4C008FAB5A /* bobEyesEbene4@2x.png */,
+				F7E1D8DE1B3A0B4C008FAB5A /* bobHullEbene4_1@2x.png */,
+				F7E1D8EC1B3AD2A6008FAB5A /* floatingBacBig@2x.png */,
+				F7E1D8EF1B3AFE60008FAB5A /* Flat */,
+			);
+			name = "OK Bob";
+			sourceTree = "<group>";
+		};
+		F7E1D8EF1B3AFE60008FAB5A /* Flat */ = {
+			isa = PBXGroup;
+			children = (
+				F7E1D8F01B3AFE76008FAB5A /* bobFlat1@2x.png */,
+				F7E1D8F31B3AFE88008FAB5A /* bobFlat2@2x.png */,
+				F7E1D8F61B3AFEDD008FAB5A /* bobFlatEyes@2x.png */,
+				F7E1D8F91B3AFF1C008FAB5A /* bobFlat4@2x.png */,
+			);
+			name = Flat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,9 +612,14 @@
 				770012CB1B24E96A000ADEBF /* bubbleMaskShadow@2x.png in Resources */,
 				770012CC1B24E96A000ADEBF /* world1BG5@2x.png in Resources */,
 				777ECCF81B271DEF002EFCA5 /* equalTriangleWhite@2x.png in Resources */,
+				F7D8642E1B3984AA00C730E2 /* floatingMine9@2x.png in Resources */,
+				F7E1D8F81B3AFEDD008FAB5A /* bobFlatEyes@2x.png in Resources */,
 				770012CD1B24E96A000ADEBF /* Images.xcassets in Resources */,
 				770012CE1B24E96A000ADEBF /* GameScene.sks in Resources */,
+				F7E1D8E41B3A0B4C008FAB5A /* bobHullEbene1@2x.png in Resources */,
 				770012CF1B24E96A000ADEBF /* pinkBac@2x.png in Resources */,
+				F7E1D8E01B3A0B4C008FAB5A /* bobEyesEbene4@2x.png in Resources */,
+				F7E1D8F51B3AFE88008FAB5A /* bobFlat2@2x.png in Resources */,
 				770012D01B24E96A000ADEBF /* magnetArrow@2x.png in Resources */,
 				770012D11B24E96A000ADEBF /* world2BG9@2x.png in Resources */,
 				F76889021B3043280014A990 /* floatingMine@2x.png in Resources */,
@@ -548,7 +629,9 @@
 				770012D41B24E96A000ADEBF /* microscopeMask3@2x.png in Resources */,
 				F7EC4C241B3448CE00CE34D1 /* floatingMine3@2x.png in Resources */,
 				770012D51B24E96A000ADEBF /* babbelsMaskShadow@2x.png in Resources */,
+				F7D864341B39AE5A00C730E2 /* background03@2x.jpg in Resources */,
 				F76888F91B2F4E080014A990 /* bobMouth@2x.png in Resources */,
+				F7E1D8E81B3A0B4C008FAB5A /* bobHullEbene4_1@2x.png in Resources */,
 				770012D61B24E96A000ADEBF /* world2BG5cut@2x.png in Resources */,
 				770012D71B24E96A000ADEBF /* bubbleMask@2x.png in Resources */,
 				770012D81B24E96A000ADEBF /* whiteBall@2x.png in Resources */,
@@ -565,21 +648,29 @@
 				777ECCFE1B275735002EFCA5 /* blackBallBlur@2x.png in Resources */,
 				770012E11B24E96A000ADEBF /* holeMaskInv@2x.png in Resources */,
 				7777DD721B27833F008E0EBF /* protector@2x.png in Resources */,
+				F7E1D8F21B3AFE76008FAB5A /* bobFlat1@2x.png in Resources */,
+				F7D864291B3982A600C730E2 /* background01@2x.jpg in Resources */,
 				770012E21B24E96A000ADEBF /* portalShadow10@2x.png in Resources */,
 				770012E31B24E96A000ADEBF /* holeMask@2x.png in Resources */,
 				770012E41B24E96A000ADEBF /* bubble@2x.png in Resources */,
 				770012E51B24E96A000ADEBF /* ballChain@2x.png in Resources */,
+				F7E1D8E21B3A0B4C008FAB5A /* bobHull2@2x.png in Resources */,
+				F7E1D8EE1B3AD2A6008FAB5A /* floatingBacBig@2x.png in Resources */,
 				777ECCFB1B27550C002EFCA5 /* floatingBallBlur.png in Resources */,
+				F7E1D8EB1B3ABAA1008FAB5A /* bobHullShineEbene1@2x.png in Resources */,
+				F7E1D8FB1B3AFF1C008FAB5A /* bobFlat4@2x.png in Resources */,
 				F76888E71B2CFB510014A990 /* saveAreaCircle@2x.png in Resources */,
 				770012F91B24F833000ADEBF /* floatingBall@2x.png in Resources */,
 				770012E61B24E96A000ADEBF /* equalTriangle@2x.png in Resources */,
 				770012E71B24E96A000ADEBF /* microscopeMask@2x.png in Resources */,
 				770012E81B24E96A000ADEBF /* babbelsPressed374@2x.png in Resources */,
 				770012E91B24E96A000ADEBF /* world2BG5@2x.png in Resources */,
+				F7D864311B39AC1600C730E2 /* floatingMine10@2x.png in Resources */,
 				770012EA1B24E96A000ADEBF /* pinkHole@2x.png in Resources */,
 				F7EC4C361B34577900CE34D1 /* virus1@2x.png in Resources */,
 				770012EB1B24E96A000ADEBF /* microscopeMask4@2x.png in Resources */,
 				770012EC1B24E96A000ADEBF /* Main.storyboard in Resources */,
+				F7E1D8E61B3A0B4C008FAB5A /* bobHullEbene2@2x.png in Resources */,
 				F7EC4C301B34510C00CE34D1 /* floatingMine7@2x.png in Resources */,
 				770012ED1B24E96A000ADEBF /* babbels@2x.png in Resources */,
 				F7EC4C2B1B344D9400CE34D1 /* floatingMine5@2x.png in Resources */,
@@ -601,7 +692,9 @@
 				771A3D481B10172600E95845 /* equalTriangleCutMask@2x.png in Resources */,
 				771A3D421B10172600E95845 /* bubbleMaskShadow@2x.png in Resources */,
 				771A3D591B10172600E95845 /* world1BG5@2x.png in Resources */,
+				F7D864301B39AC1600C730E2 /* floatingMine10@2x.png in Resources */,
 				777ECCF71B271DEF002EFCA5 /* equalTriangleWhite@2x.png in Resources */,
+				F7E1D8EA1B3ABAA1008FAB5A /* bobHullShineEbene1@2x.png in Resources */,
 				776BAA9C1B08F1E7002C49FA /* Images.xcassets in Resources */,
 				F7EC4C321B3451C900CE34D1 /* floatingMine8@2x.png in Resources */,
 				776BAA931B08F1E7002C49FA /* GameScene.sks in Resources */,
@@ -613,6 +706,8 @@
 				771A3D431B10172600E95845 /* bubbleWhiteGrey@2x.png in Resources */,
 				771A3D3C1B10172600E95845 /* babbelsPressed@2x.png in Resources */,
 				F76888EF1B2E31090014A990 /* spark.png in Resources */,
+				F7E1D8FA1B3AFF1C008FAB5A /* bobFlat4@2x.png in Resources */,
+				F7D8642D1B3984AA00C730E2 /* floatingMine9@2x.png in Resources */,
 				771A3D4F1B10172600E95845 /* microscopeMask3@2x.png in Resources */,
 				771A3D3B1B10172600E95845 /* babbelsMaskShadow@2x.png in Resources */,
 				F76888F81B2F4E080014A990 /* bobMouth@2x.png in Resources */,
@@ -625,16 +720,25 @@
 				771A3D471B10172600E95845 /* equalTriangleCut@2x.png in Resources */,
 				771A3D491B10172600E95845 /* greenBac@2x.png in Resources */,
 				771A3D561B10172600E95845 /* right@2x.png in Resources */,
+				F7D864331B39AE5A00C730E2 /* background03@2x.jpg in Resources */,
+				F7E1D8DF1B3A0B4C008FAB5A /* bobEyesEbene4@2x.png in Resources */,
 				F7EC4C2C1B344D9400CE34D1 /* floatingMine6@2x.png in Resources */,
 				771A3D541B10172600E95845 /* portalShadow16@2x.png in Resources */,
 				F76888ED1B2E31090014A990 /* FloaterExplosion.sks in Resources */,
+				F7E1D8E11B3A0B4C008FAB5A /* bobHull2@2x.png in Resources */,
 				771A3D551B10172600E95845 /* portalShadow18@2x.png in Resources */,
 				F7EC4C281B344D9400CE34D1 /* floatingMine4@2x.png in Resources */,
+				F7D864281B3982A600C730E2 /* background01@2x.jpg in Resources */,
+				F7E1D8F11B3AFE76008FAB5A /* bobFlat1@2x.png in Resources */,
 				777ECCFD1B275735002EFCA5 /* blackBallBlur@2x.png in Resources */,
 				771A3D4B1B10172600E95845 /* holeMaskInv@2x.png in Resources */,
+				F7E1D8E51B3A0B4C008FAB5A /* bobHullEbene2@2x.png in Resources */,
 				7777DD711B27833F008E0EBF /* protector@2x.png in Resources */,
 				771A3D531B10172600E95845 /* portalShadow10@2x.png in Resources */,
 				771A3D4A1B10172600E95845 /* holeMask@2x.png in Resources */,
+				F7E1D8E71B3A0B4C008FAB5A /* bobHullEbene4_1@2x.png in Resources */,
+				F7E1D8ED1B3AD2A6008FAB5A /* floatingBacBig@2x.png in Resources */,
+				F7E1D8F71B3AFEDD008FAB5A /* bobFlatEyes@2x.png in Resources */,
 				771A3D401B10172600E95845 /* bubble@2x.png in Resources */,
 				771A3D3E1B10172600E95845 /* ballChain@2x.png in Resources */,
 				777ECCFA1B27550C002EFCA5 /* floatingBallBlur.png in Resources */,
@@ -648,8 +752,10 @@
 				771A3D521B10172600E95845 /* pinkHole@2x.png in Resources */,
 				771A3D501B10172600E95845 /* microscopeMask4@2x.png in Resources */,
 				776BAA9A1B08F1E7002C49FA /* Main.storyboard in Resources */,
+				F7E1D8F41B3AFE88008FAB5A /* bobFlat2@2x.png in Resources */,
 				F7EC4C351B34577900CE34D1 /* virus1@2x.png in Resources */,
 				771A3D391B10172600E95845 /* babbels@2x.png in Resources */,
+				F7E1D8E31B3A0B4C008FAB5A /* bobHullEbene1@2x.png in Resources */,
 				771A3D3A1B10172600E95845 /* babbels374@2x.png in Resources */,
 				771A3D4E1B10172600E95845 /* microscopeMask2@2x.png in Resources */,
 			);

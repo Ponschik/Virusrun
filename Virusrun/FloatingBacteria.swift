@@ -11,7 +11,7 @@ import SpriteKit
 
 class FloatingBacteria: SKSpriteNode {
     
-    let bacTexture = SKTexture(imageNamed: "floatingMine8.png")
+    let bacTexture = SKTexture(imageNamed: "floatingMine9.png")
     let bacTexture2 = SKTexture(imageNamed: "floatingMine7.png")
     
 //    let bacTexture = SKTexture(imageNamed: "equalTriangleWhite.png")
@@ -35,7 +35,7 @@ class FloatingBacteria: SKSpriteNode {
     
     init() {
         
-        let startColor = UIColor.blackColor()//turksie
+        let startColor = UIColor(red:0.686, green:0.863, blue:0.682, alpha: 1)//UIColor.blackColor()//turksie
         
         let randTxtr = CGFloat.random()
         
@@ -49,8 +49,9 @@ class FloatingBacteria: SKSpriteNode {
         
         super.init(texture: usedTexture, color: startColor, size: usedTexture.size())
         
-        let rand = CGFloat.random(min: 0, max: 0.1)
-        colorBlendFactor = rand
+        let rand = CGFloat.random(min: 0.5, max: 0.7)
+        colorBlendFactor = 0.8
+//        alpha = 0.6
         
         let randRotation = CGFloat.random(min: CGFloat(-M_PI), max: CGFloat(M_PI))
         zRotation = randRotation
